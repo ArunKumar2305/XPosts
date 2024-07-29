@@ -29,7 +29,7 @@ const Home=()=>{
          body: JSON.stringify({postId:id})
       }).then(res=>res.json()).then(result => {
          const newData = allImages.map(item => {
-            if(item._id == result._id){
+            if(item && item._id == result._id){
                return result
             } else {
                return item
@@ -50,7 +50,7 @@ const Home=()=>{
          body: JSON.stringify({postId:id})
       }).then(res=>res.json()).then(result=>{
          const newData = allImages.map(item => {
-            if(item._id == result._id){
+            if(item && item._id == result._id){
                return result
             } else {
                return item

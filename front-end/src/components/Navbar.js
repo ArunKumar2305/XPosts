@@ -57,7 +57,7 @@ const Navbar =()=>{
       <div>
         <nav>
           <div className="nav-wrapper white">
-            <Link to={state ? "/" : "/login"} className="brand-logo left" style={{marginLeft:25}}>CoPeople</Link>
+            <Link to={state ? "/" : "/login"} className="brand-logo left" style={{marginLeft:25}}>XPosts</Link>
             <ul id="nav-mobile" className="right hide-on-med-and-down" style={{marginRight:25}}>
               {renderList()}
             </ul>

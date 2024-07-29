@@ -3,7 +3,7 @@ const { mongoose } = require('mongoose')
 const app = express()
 const PORT = 2000
 
-mongoose.connect('mongodb://localhost:27017')
+mongoose.connect('mongodb+srv://manojmeruva:ovraGsdOr2lY0gqd@cluster0.fojlwgo.mongodb.net/?authMechanism=DEFAULT')
 
 mongoose.connection.on('connected',()=>{
     console.log("mongo connected succesfully");

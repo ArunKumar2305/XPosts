@@ -1,3 +1,6 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 @import url('https://fonts.googleapis.com/css2?family=Heebo:wght@600&family=Honk&display=swap');
 a{
     color: black !important;
@@ -5,7 +8,8 @@ a{
 
 .brand-logo {
     /* font-family: 'Heebo', sans-serif; */
-font-family: 'Honk', system-ui;
+font-family:Arial, Helvetica, sans-serif;
+font-size: larger;
 }
 
 .auth-card {
@@ -42,7 +46,7 @@ font-family: 'Honk', system-ui;
 
 .home-card img {
     max-width: 100%;
-    height: auto;
+    height: 100;
     display: block; 
 }
 
